@@ -1,0 +1,27 @@
+.one{border-width: 2px; border-style: double; border-color: black;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    width:60%
+}
+
+    .body{background-color: bisque;}
+
+    .three{border-width: 2px; border-style: dotted; border-color: red;}
+
+    .two{border-width: 2px; border-style:dotted; border-color:red;
+        width: 400px;
+        height: 250px;
+        background-color: white;
+        width:60%}
+     
+
+        .four{background-color: yellow;
+        font-weight: bold;
+        }
+
+        .five{background-color: orange;
+        font-weight: bold;
+        }
+
+        .six{background-color: yellow;}
