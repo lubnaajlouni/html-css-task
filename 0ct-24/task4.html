@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        .one{
+            grid-area:blacke;
+            background-color:black;
+        }
+
+        .two{
+            grid-area:orangee;
+            background-color:orange;
+        }
+
+        .three{
+            grid-area:greene;
+           background-color:green;
+        }
+
+        .four{
+            grid-area:bluee;
+            background-color:blue;
+        }
+
+        
+         .z{
+            display:grid;
+            grid-template-columns:auto;
+            grid-template-rows:60px 210px 115px ;
+            grid-template-areas: 
+            ' blacke blacke blacke blacke blacke blacke'
+            'orangee orangee orangee orangee greene greene'
+            'bluee bluee bluee bluee  bluee bluee';
+            row-gap:10px;     
+            column-gap:10px;  
+        }
+        
+            
+        
+    </style>
+</head>
+<body>
+    <div class="z">
+        <div class="one"></div>
+        <div class="two"> </div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+</body>
+</html>
